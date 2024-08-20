@@ -1,3 +1,5 @@
+高德地图切图工具的源码修改自 [吳鹏/高德地图切图工具](https://gitee.com/979567791/GaodeMapTileCutter)
+
 # TileCutter 
 
 百度地图切图工具

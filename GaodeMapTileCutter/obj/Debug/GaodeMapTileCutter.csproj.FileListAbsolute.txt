@@ -1,0 +1,17 @@
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\bin\Debug\GaodeMapTileCutter.exe.config
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\bin\Debug\GaodeMapTileCutter.exe
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\bin\Debug\GaodeMapTileCutter.pdb
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.csproj.AssemblyReference.cache
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.mainForm.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.Properties.Resources.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.StepPanel1.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.StepPanel2.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.StepPanel3.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.StepPanel4.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.StepPanel5.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.StepPanel6.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.StepPanel7.resources
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.csproj.GenerateResource.cache
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.csproj.CoreCompileInputs.cache
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.exe
+C:\Users\liutao\source\repos\MapTileCutter\GaodeMapTileCutter\obj\Debug\GaodeMapTileCutter.pdb

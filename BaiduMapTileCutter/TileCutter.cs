@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Drawing;
 using System.IO;
 
@@ -138,7 +134,7 @@ namespace BaiduMapTileCutter
             htmlFile.WriteLine("tileLayer.getTilesUrl = function(tileCoord, zoom) {");
             htmlFile.WriteLine("    var x = tileCoord.x;");
             htmlFile.WriteLine("    var y = tileCoord.y;");
-            htmlFile.WriteLine("    return 'tiles/' + zoom + '/tile-' + x + '_' + y + '.png';");
+            htmlFile.WriteLine("    return 'tiles/' + zoom + '/' + x + '_' + y + '.png';");
             htmlFile.WriteLine("}");
             if (outputLayerType == OutputLayerTypes.MapType)
             {
@@ -244,8 +240,12 @@ namespace BaiduMapTileCutter
                     int offsetX = (int)eachTileCoords.X * 256 + pxDiff.Width + halfWidth;
                     int offsetY = halfHeight - ((int)eachTileCoords.Y * 256 + pxDiff.Height) - 256;
                     copyImagePixel(img, imgFile, offsetX, offsetY);
-                    string imgFileName = outputPath + "/tiles/" + zoom.ToString()
-                        + "/tile-" + eachTileCoords.X.ToString() + "_" + eachTileCoords.Y.ToString() + ".png";
+                    //string imgFileName = outputPath + "/tiles/" + zoom.ToString()
+                    //    + "/tile-" + eachTileCoords.X.ToString() + "_" + eachTileCoords.Y.ToString() + ".png";
+                    string imgFileName = Path.Combine(outputPath,
+                                                      "tiles",
+                                                      zoom.ToString(),
+                                                      $"{eachTileCoords.X}_{eachTileCoords.Y}.png");
                     img.Save(imgFileName, System.Drawing.Imaging.ImageFormat.Png);
                     img.Dispose();
                     finishCount++;

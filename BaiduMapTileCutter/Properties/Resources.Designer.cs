@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BaiduMapTileCutter.Properties
+namespace GaodeMapTileCutter.Properties
 {
 
 
